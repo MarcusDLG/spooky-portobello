@@ -11,8 +11,12 @@ body {
   min-height: 100%;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .wd {
-  color: rgb(251, 69, 76)
+  color: rgb(251, 69, 76);
 }
 
 main {
@@ -43,7 +47,7 @@ header h3 {
   padding-bottom: 3rem;
 }
 
-.centerHeader ul {
+.navT ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -55,12 +59,19 @@ header h3 {
   max-height: 80px;
 }
 
-.centerHeader li {
+.navT {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.navT li {
   padding-top: 1.5rem;
   font-size: 1rem;
 }
 
-.centerHeader a {
+.navT a {
   color: rgb(207, 207, 207);
   padding: 1rem;
   text-decoration: none;
@@ -97,7 +108,65 @@ footer button {
   body {
     margin: 0;
   }
-  .center main {
+
+  header {
+    padding: 1rem;
+  }
+
+  .topP {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .topP ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .topP li {
+    padding: 1rem 1rem;
+  }
+
+  .topP a {
+    color: rgb(34, 210, 255);
+  }
+
+  .hidden {
+    visibility: visible;
+  }
+
+  .topP button {
+    color: rgb(207, 207, 207);
+    background-color: black;
+    border: none;
+    padding: 0rem 1.5rem;
+    margin: 1rem;
+  }
+
+  header h3 {
+    margin-left: 3rem;
+  }
+  .navT {
+    display: inline;
+    max-width: initial;
+    max-height: initial;
+  }
+  .navT ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 3rem;
+    max-width: 1000px;
+    max-height: 1000px;
+  }
+  .navT li {
+    padding-top: 1.5rem;
+    font-size: 1rem;
+  }
+  main {
     display: grid;
     grid-template-columns: 50% 50%;
   }
@@ -110,4 +179,7 @@ footer button {
   .pictureCard img {
     width: 50vw;
   }
+}
+
+@media (min-width: 1024px) {
 }
