@@ -182,4 +182,67 @@ footer button {
 }
 
 @media (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  /* .topRow {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+  .left {
+    padding: 0;
+    margin: 0.5rem;
+  }
+
+  .right {
+    padding: 0;
+    margin: 0.5rem;
+  }
+
+  .pictureCard img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .one {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+  }
+  .two {
+    grid-column-start: 4;
+    grid-column-end: 7;
+  }
+  .three {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .four {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .five {
+    grid-column-start: 5;
+    grid-column-end: 7;
+  }
+  .six {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  /* .six img {
+    height: auto;
+  } */
+  .seven {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .eight {
+    grid-column-start: 4;
+    grid-column-end: 7;
+  }
 }
