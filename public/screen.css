@@ -97,18 +97,17 @@ footer button {
   body {
     margin: 0;
   }
-  main {
+  .center main {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  .centerHeader {}
-  .pictureCard {
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+  .left {
+    padding-right: 2rem;
+  }
+  .right {
+    padding-left: 2rem;
   }
   .pictureCard img {
-    width: 48vw;
-    padding: .2rem;
+    width: 50vw;
   }
 }
