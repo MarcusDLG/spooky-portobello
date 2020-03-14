@@ -28,11 +28,12 @@ main {
   background-image: url(./Images/image-1.jpg);
   background-size: cover;
   display: block;
-  width: 96.5%;
+  width: 97.5%;
   height: 600px;
   background-position: center center;
   position: relative;
-  margin: 1rem;
+  /* margin-right: 1rem; */
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
@@ -40,11 +41,13 @@ main {
   background-image: url(./Images/image-2.jpg);
   background-size: cover;
   display: block;
-  width: 96.5%;
+  width: 97.5;
   height: 600px;
-  background-position: center center;
+  background-position: center;
   position: relative;
-  margin: 1rem;
+  margin-left: 1rem;
+
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
@@ -52,11 +55,11 @@ main {
   background-image: url(./Images/image-3.jpg);
   background-size: cover;
   display: block;
-  width: 96.5%;
+  width: 97.5%;
   height: 600px;
   background-position: center center;
   position: relative;
-  margin: 1rem;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
@@ -64,11 +67,11 @@ main {
   background-image: url(./Images/image-4.jpg);
   background-size: cover;
   display: block;
-  width: 96.5%;
+  width: 97.5%;
   height: 600px;
   background-position: center center;
   position: relative;
-  margin: 1rem;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
@@ -76,11 +79,11 @@ main {
   background-image: url(./Images/image-5.jpeg);
   background-size: cover;
   display: block;
-  width: 96.5%;
+  width: 97.5%;
   height: 600px;
   background-position: center center;
   position: relative;
-  margin: 1rem;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
@@ -88,34 +91,37 @@ main {
   background-image: url(./Images/image-6.jpeg);
   background-size: cover;
   display: block;
-  width: 96.5%;
+  width: 100%;
   height: 600px;
   background-position: center center;
   position: relative;
-  margin: 1rem;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
-.seven {
+.pictureCard.seven {
   background-image: url(./Images/image-7.jpeg);
   background-size: cover;
   display: block;
-  width: 96.5%;
+  width: 97.5%;
   height: 600px;
   background-position: center center;
   position: relative;
-  margin: 1rem;
+  margin-left: 0;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
-.eight {
+.pictureCard.eight {
   background-image: url(./Images/image-8.jpeg);
   background-size: cover;
-  display: block;
-  width: 96.5%;
+  display: flex;
+  flex-direction: flex-end;
+  width: 97.5;
   height: 600px;
   background-position: center center;
   position: relative;
-  margin: 1rem;
+  margin-left: 0rem;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
 
