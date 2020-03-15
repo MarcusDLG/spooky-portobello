@@ -28,11 +28,11 @@ main {
   background-image: url(./Images/image-1.jpg);
   background-size: cover;
   display: block;
-  width: 97.5%;
+  width: 100%;
   height: 600px;
   background-position: center center;
   position: relative;
-  /* margin-right: 1rem; */
+  margin-right: 0;
   margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
@@ -41,12 +41,11 @@ main {
   background-image: url(./Images/image-2.jpg);
   background-size: cover;
   display: block;
-  width: 97.5;
+  width: 100%;
   height: 600px;
-  background-position: center;
+  background-position: center center;
   position: relative;
-  margin-left: 1rem;
-
+  margin-left: 0;
   margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
@@ -55,7 +54,7 @@ main {
   background-image: url(./Images/image-3.jpg);
   background-size: cover;
   display: block;
-  width: 97.5%;
+  width: 100%;
   height: 600px;
   background-position: center center;
   position: relative;
@@ -67,7 +66,7 @@ main {
   background-image: url(./Images/image-4.jpg);
   background-size: cover;
   display: block;
-  width: 97.5%;
+  width: 100%;
   height: 600px;
   background-position: center center;
   position: relative;
@@ -79,7 +78,7 @@ main {
   background-image: url(./Images/image-5.jpeg);
   background-size: cover;
   display: block;
-  width: 97.5%;
+  width: 100%;
   height: 600px;
   background-position: center center;
   position: relative;
@@ -99,11 +98,11 @@ main {
   background-repeat: no-repeat;
 }
 
-.pictureCard.seven {
+.seven {
   background-image: url(./Images/image-7.jpeg);
   background-size: cover;
   display: block;
-  width: 97.5%;
+  width: 100%;
   height: 600px;
   background-position: center center;
   position: relative;
@@ -111,12 +110,12 @@ main {
   margin-bottom: 2rem;
   background-repeat: no-repeat;
 }
-.pictureCard.eight {
+.eight {
   background-image: url(./Images/image-8.jpeg);
   background-size: cover;
   display: flex;
   flex-direction: flex-end;
-  width: 97.5;
+  width: 100%;
   height: 600px;
   background-position: center center;
   position: relative;
@@ -265,15 +264,50 @@ footer button {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  /* .left {
-    padding-right: 2rem;
+
+  .one {
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
   }
-  .right {
-    padding-left: 2rem;
-  } */
-  /* .pictureCard img {
-    width: 50vw;
-  } */
+
+  .two {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
+  }
+
+  .three {
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
+  }
+
+  .four {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
+  }
+  .five {
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
+  }
+  .six {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
+  }
+  .seven {
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
+  }
+  .eight {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    width: 97.5%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -283,58 +317,52 @@ footer button {
     grid-template-rows: 25% 25% 25% 25%;
   }
 
-  /* .topRow {
-    display: flex;
-    flex-wrap: wrap;
-  } */
-
-  /* .left {
-    padding: 0;
-    margin: 0.5rem;
-  }
-
-  .right {
-    padding: 0;
-    margin: 0.5rem;
-  } */
-
-  /* .pictureCard img {
-    width: 100%;
-    height: 70vh;
-  } */
-
   .one {
     grid-column-start: 1;
     grid-column-end: 4;
-    /* grid-row-start: 1;
-    grid-row-end: 2; */
+    margin-bottom: 2rem;
   }
   .two {
     grid-column-start: 4;
     grid-column-end: 7;
+    margin-left: 1.2rem;
+    margin-bottom: 2rem;
   }
   .three {
     grid-column-start: 1;
     grid-column-end: 3;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
   }
   .four {
     grid-column-start: 3;
     grid-column-end: 5;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
   }
   .five {
     grid-column-start: 5;
     grid-column-end: 7;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
   }
   .six {
     grid-column-start: 1;
     grid-column-end: 7;
+    width: 100%;
+    margin-bottom: 2rem;
   }
   .seven {
     grid-column-start: 1;
     grid-column-end: 4;
+    margin-left: 0;
+    margin-bottom: 2rem;
   }
   .eight {
     grid-column-start: 4;
     grid-column-end: 7;
+    margin-left: 1.2rem;
+    margin-bottom: 2rem;
   }
 }
